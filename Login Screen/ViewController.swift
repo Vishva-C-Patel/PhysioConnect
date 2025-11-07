@@ -1,19 +1,23 @@
 //
 //  ViewController.swift
-//  Login Screen
+//  Screen1
 //
-//  Created by admin4 on 02/11/25.
+//  Created by user@9 on 02/11/25.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var AppIcon: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
-        // Do any additional setup after loading the view.
+        AppIcon.image = UIImage(systemName: "heart.circle.fill")
+        AppIcon.tintColor = .systemBlue
+        
     }
 
 
